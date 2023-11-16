@@ -1,0 +1,22 @@
+.finance__navbar{
+    background-color: #726EFF;
+    padding: 15px 0;
+    width: 50%;
+    margin: 0 auto;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+}
+.finance__navbar:hover{
+    width: 55%;
+}
+.finance__navbar h1{
+    margin: 0;
+    padding: 0;
+    color: white;
+    letter-spacing: 1.5px;
+}
