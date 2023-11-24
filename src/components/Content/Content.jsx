@@ -31,7 +31,6 @@ const Content = () => {
       alert("Please Fill All Fields");
     }
   }
-  console.log(details);
   return (
     <div className='finance__content'>
       <div className='finance__control-overlay'></div>
@@ -56,7 +55,7 @@ const Content = () => {
         <button type='submit' onClick={btnClick}>Add</button>
       </div>
         <Control details={details}/>
-        <Summary/>
+        <Summary details={details}/>
     </div>
   )
 }
